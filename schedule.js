@@ -62,15 +62,15 @@ if(!MIRAI.main) {MIRAI.main = {};}
                             roomNumber
                         );
                         renderedLocationHTML = $.parseHTML(renderedLocationHTML);
-                        $(`li.eventOn${startDate}th .pisey-event`).append(renderedLocationHTML);
+                        $(`li.eventOn${startDate}th .card-events`).append(renderedLocationHTML);
 
 
 
-                        var piseyheader = func.piseyheaderTemplate.format(
+                        var location_header = func.locationHeaderTemplate.format(
                             locationName,
                         );
-                        piseyheader = $.parseHTML(piseyheader);
-                        $(`li.eventOn${startDate}th .pisey-header`).append(piseyheader);
+                        location_header = $.parseHTML(location_header);
+                        $(`li.eventOn${startDate}th .location-headers`).append(location_header);
                     }
 
 
@@ -234,7 +234,7 @@ if(!MIRAI.main) {MIRAI.main = {};}
         </div>
     </div>`;
 
-    func.piseyheaderTemplate = `
+    func.locationHeaderTemplate = `
     <div class="table-flex" data-location="{0}" data-building-number="{1}" data-room-number={2}>
         <div class="col-header">
             <p>{0}</p>
@@ -277,28 +277,4 @@ $(document).ready(function() {
          */
         $(".table-container .tabs li").on("click", MIRAI.main.onHandleSetTimelineHeight);
 
-
-    var timeout;
-    console.log("start")
-    $('#time, #schedule').scroll( function() {
-        console.log("scroll")
-
-        // clear the 'timeout' every 'scroll' event call
-        // to prevent re-assign 'scroll' event to other element
-        // before finished scrolling
-        clearTimeout(timeout);
-
-        // get the used elements
-        var source = $(this),
-            target = $(source.is("#time") ? '#schedule' : '#time');
-
-        // remove the callback from the other 'div' and set the 'scrollTop'
-        target.off("scroll").scrollTop(source.scrollTop());
-
-        // create a new 'timeout' and reassign 'scroll' event
-        // to other 'div' on 100ms after the last event call
-        timeout = setTimeout(function() {
-            target.on("scroll", callback);
-        }, 50);
-    });
 });
