@@ -6,7 +6,10 @@
 =======
     <list default="true" id="3f32c6f4-96e4-454b-b7b6-7ce5a965c90b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
       <change beforePath="$PROJECT_DIR$/schedule.css" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.css" afterDir="false" />
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
       <change beforePath="$PROJECT_DIR$/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.js" afterDir="false" />
     </list>
@@ -28,12 +31,17 @@
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="355">
               <caret line="251" column="1" lean-forward="true" selection-start-line="251" selection-start-column="1" selection-end-line="251" selection-end-column="1" />
 =======
             <state relative-caret-position="174">
               <caret line="215" column="11" selection-start-line="215" selection-start-column="11" selection-end-line="215" selection-end-column="11" />
 >>>>>>> 18d0d9e369d60cd50f25245c36bd6599f12d5d06
+=======
+            <state relative-caret-position="35">
+              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+>>>>>>> 34bcd3f54af09ceebf2cf88cfb98a8490703b13a
 =======
             <state relative-caret-position="-67">
               <caret line="242" lean-forward="true" selection-start-line="242" selection-end-line="242" selection-end-column="12" />
@@ -42,9 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schedule.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="schedule.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/schedule.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="219">
@@ -54,19 +63,34 @@
               <caret line="282" column="33" selection-start-line="282" selection-start-column="33" selection-end-line="282" selection-end-column="33" />
 >>>>>>> 18d0d9e369d60cd50f25245c36bd6599f12d5d06
 =======
+            <state relative-caret-position="237">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+              <folding>
+                <element signature="e#72#278#0" />
+                <element signature="e#4568#4794#0" />
+                <element signature="e#4842#5329#0" />
+                <element signature="e#5374#5565#0" />
+                <element signature="e#5599#6187#0" />
+                <element signature="e#6262#6418#0" />
+                <element signature="e#6512#7870#0" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+>>>>>>> 34bcd3f54af09ceebf2cf88cfb98a8490703b13a
+=======
             <state relative-caret-position="210">
               <caret line="85" column="22" lean-forward="true" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
 >>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
               <folding>
                 <element signature="e#72#278#0" />
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schedule.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="schedule.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/schedule.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="395">
@@ -76,12 +100,21 @@
               <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
 >>>>>>> 18d0d9e369d60cd50f25245c36bd6599f12d5d06
 =======
+            <state relative-caret-position="148">
+              <caret line="22" column="45" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="45" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> 34bcd3f54af09ceebf2cf88cfb98a8490703b13a
+=======
             <state relative-caret-position="306">
               <caret line="109" column="76" selection-start-line="109" selection-start-column="76" selection-end-line="109" selection-end-column="76" />
 >>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
               </folding>
             </state>
           </provider>
@@ -112,7 +145,11 @@
       <find>tab-content</find>
       <find>pisey</find>
       <find>table-flex</find>
+<<<<<<< HEAD
+      <find>console.log</find>
+=======
       <find>console</find>
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,10 +158,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+=======
         <option value="$PROJECT_DIR$/syncscroll.js" />
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
         <option value="$PROJECT_DIR$/schedule.css" />
         <option value="$PROJECT_DIR$/schedule.js" />
         <option value="$PROJECT_DIR$/schedule.html" />
+        <option value="$PROJECT_DIR$/schedule.js" />
       </list>
     </option>
   </component>
@@ -139,16 +180,23 @@
   </component>
   <component name="ProjectFrameBounds">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="x" value="144" />
     <option name="y" value="22" />
+=======
+    <option name="x" value="186" />
+    <option name="y" value="33" />
+>>>>>>> 34bcd3f54af09ceebf2cf88cfb98a8490703b13a
 =======
     <option name="x" value="125" />
     <option name="y" value="67" />
 >>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
     <option name="width" value="1241" />
-    <option name="height" value="626" />
+    <option name="height" value="685" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -185,6 +233,14 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="schedule.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/event_management/schedule.html" />
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.schedule.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -209,6 +265,7 @@
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="10594000" />
   </component>
   <component name="ToolWindowManager">
@@ -219,6 +276,12 @@
   <component name="ToolWindowManager">
     <frame x="81" y="33" width="1241" height="626" extended-state="0" />
 >>>>>>> 18d0d9e369d60cd50f25245c36bd6599f12d5d06
+=======
+    <option name="totallyTimeSpent" value="19120000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="186" y="33" width="1241" height="685" extended-state="0" />
+>>>>>>> 34bcd3f54af09ceebf2cf88cfb98a8490703b13a
 =======
     <option name="totallyTimeSpent" value="14906000" />
   </component>
@@ -238,12 +301,28 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14423852" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+<<<<<<< HEAD
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+=======
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +339,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/schedule.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+=======
         <state relative-caret-position="4110">
           <caret line="274" column="30" lean-forward="true" selection-start-line="274" selection-start-column="30" selection-end-line="274" selection-end-column="30" />
         </state>
@@ -323,6 +404,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/schedule.css">
       <provider selected="true" editor-type-id="text-editor">
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
         <state relative-caret-position="915">
           <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
         </state>
@@ -334,6 +416,16 @@
           <caret line="232" column="26" selection-start-line="232" selection-start-column="16" selection-end-line="232" selection-end-column="26" />
           <folding>
             <element signature="e#72#278#0" />
+<<<<<<< HEAD
+            <element signature="e#4568#4794#0" />
+            <element signature="e#4842#5329#0" />
+            <element signature="e#5374#5565#0" />
+            <element signature="e#5599#6187#0" />
+            <element signature="e#6262#6418#0" />
+            <element signature="e#6512#7870#0" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+=======
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
           </folding>
         </state>
       </provider>
@@ -343,8 +435,14 @@
         <state relative-caret-position="360">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
+<<<<<<< HEAD
+            <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
             <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
           </folding>
         </state>
       </provider>
@@ -355,6 +453,16 @@
           <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
           <folding>
             <element signature="e#72#278#0" />
+<<<<<<< HEAD
+            <element signature="e#4568#4794#0" />
+            <element signature="e#4842#5329#0" />
+            <element signature="e#5374#5565#0" />
+            <element signature="e#5599#6187#0" />
+            <element signature="e#6262#6418#0" />
+            <element signature="e#6512#7870#0" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+=======
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
           </folding>
         </state>
       </provider>
@@ -364,8 +472,14 @@
         <state relative-caret-position="276">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
+<<<<<<< HEAD
+            <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
             <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
           </folding>
         </state>
       </provider>
@@ -384,8 +498,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unicode-hack.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="26" column="70" lean-forward="true" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#72#278#0" />
+            <element signature="e#4568#4794#0" />
+            <element signature="e#4842#5329#0" />
+            <element signature="e#5374#5565#0" />
+            <element signature="e#5599#6187#0" />
+            <element signature="e#6262#6418#0" />
+            <element signature="e#6512#7870#0" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+          <folding>
+            <element signature="e#72#278#0" />
+            <element signature="e#4568#4794#0" />
+            <element signature="e#4842#5329#0" />
+            <element signature="e#5374#5565#0" />
+            <element signature="e#5599#6187#0" />
+            <element signature="e#6262#6418#0" />
+            <element signature="e#6512#7870#0" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.css">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="355">
+          <caret line="251" column="1" lean-forward="true" selection-start-line="251" selection-start-column="1" selection-end-line="251" selection-end-column="1" />
+=======
+        <state relative-caret-position="90">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/schedule.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -394,16 +596,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unicode-hack.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/schedule.css">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
-        <state relative-caret-position="355">
-          <caret line="251" column="1" lean-forward="true" selection-start-line="251" selection-start-column="1" selection-end-line="251" selection-end-column="1" />
+        <state relative-caret-position="263">
+>>>>>>> 34bcd3f54af09ceebf2cf88cfb98a8490703b13a
 =======
         <state relative-caret-position="915">
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
           <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
 >>>>>>> 18d0d9e369d60cd50f25245c36bd6599f12d5d06
         </state>
@@ -419,6 +619,16 @@
           <caret line="232" column="26" selection-start-line="232" selection-start-column="16" selection-end-line="232" selection-end-column="26" />
           <folding>
             <element signature="e#72#278#0" />
+<<<<<<< HEAD
+            <element signature="e#4568#4794#0" />
+            <element signature="e#4842#5329#0" />
+            <element signature="e#5374#5565#0" />
+            <element signature="e#5599#6187#0" />
+            <element signature="e#6262#6418#0" />
+            <element signature="e#6512#7870#0" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+=======
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
           </folding>
         </state>
       </provider>
@@ -426,11 +636,107 @@
     <entry file="file://$PROJECT_DIR$/schedule.html">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+        <state relative-caret-position="284">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+          <folding>
+            <element signature="e#72#278#0" />
+            <element signature="e#4568#4794#0" />
+            <element signature="e#4842#5329#0" />
+            <element signature="e#5374#5565#0" />
+            <element signature="e#5599#6187#0" />
+            <element signature="e#6262#6418#0" />
+            <element signature="e#6512#7870#0" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="395">
           <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#72#278#0" />
+            <element signature="e#4568#4794#0" />
+            <element signature="e#4842#5329#0" />
+            <element signature="e#5374#5565#0" />
+            <element signature="e#5599#6187#0" />
+            <element signature="e#6262#6418#0" />
+            <element signature="e#6512#7870#0" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+>>>>>>> 34bcd3f54af09ceebf2cf88cfb98a8490703b13a
 =======
         <state relative-caret-position="81">
           <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
