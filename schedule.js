@@ -29,7 +29,7 @@ if(!MIRAI.main) {MIRAI.main = {};}
                     };
                 var regex = unicode_hack(/\p{N}/g),
                 timeline = new Set();
-
+                let html_border =""
                 timetables.map(function(ele, index){
                     var startTime = moment(ele.start).format('HH:mm'),
                         endTime = moment(ele.end).format('HH:mm'),
@@ -65,9 +65,11 @@ if(!MIRAI.main) {MIRAI.main = {};}
                         var background_border = func.backgroundBorderTemplate.format(
                             locationName
                         )
+                        html_border = html_border + background_border;
+
                         location_header = $.parseHTML(location_header);
                         $(`li.eventOn${startDate}th .location-headers`).append(location_header);
-                        $('#background-border').append(background_border)
+                        //$('#background-border').append(background_border)
                     }
 
                     var startTimeDec = moment.duration(startTime).asHours();
@@ -101,6 +103,9 @@ if(!MIRAI.main) {MIRAI.main = {};}
                         endTime: endTime
                     });
                     events[`eventOn${startDate}th`].push(ele);
+                    var background_border = func.backgroundBorderTemplate.format()
+                    html_border+=background_border;
+
                 });
 
                 for (var i = 15; i <= 16; i++) {
@@ -110,8 +115,23 @@ if(!MIRAI.main) {MIRAI.main = {};}
                         );
                         timelineElement = $.parseHTML(timelineElement);
                         $(`li.eventOn${i}th .time-line-item`).append(timelineElement);
+
+
                     }
                 }
+                let full_background =""
+                if(html_border){
+                    for(var k = 7 ;k <=17;k++){
+                        let mm = func.backgroundBorderHeigTemplate.format(
+                            html_border
+                        )
+                        $('#background-border').append("<div>"+html_border+"</div>")
+
+                    }
+
+
+                }
+
 
                 MIRAI.main.sortBy('data-building-number', '.schedule-wrapper', '.table-flex', 'asc', 'data-room-number');
                 MIRAI.main.sortBy('data-time-order', '.location-events', '.eventRecordObject', 'asc');
@@ -262,7 +282,12 @@ if(!MIRAI.main) {MIRAI.main = {};}
 
     func.backgroundBorderTemplate = `
     
-        <div style="height: 200px;width: 250px; display: flex;flex-direction: column;border: 1px solid black"></div>`
+        <div style="height: 200px;width: 249px; display: flex;flex-direction: column;
+        border: 1px solid gray;border-right:0px;border-top:0px"></div>`
+
+    func.backgroundBorderHeigTemplate = `
+    
+        <div style="height: 200px;width: 250px; display: flex;flex-direction: row;border: 1px solid black">{0}</div>`
 
 
     func.locationEventTemplate = `
@@ -280,6 +305,7 @@ if(!MIRAI.main) {MIRAI.main = {};}
 })(jQuery);
 
 $(document).ready(function() {
+
     MIRAI.main.fetchEventsData('https://api.eventregist.com/v/2/timetable/get?event_uid=3b75c6deb1a72cf894781a8c5e4f0e64');
 
         /**
@@ -317,12 +343,17 @@ $(document).ready(function() {
 
         // remove the callback from the other 'div' and set the 'scrollTop'
         target.off("scroll").scrollTop(source.scrollTop());
-
+        var border = ".scroll-border"
         // create a new 'timeout' and reassign 'scroll' event
         // to other 'div' on 100ms after the last event call
         timeout = setTimeout(function() {
             target.on("scroll", callback);
+            $('.scroll-border').on("scroll", callback);
+
         }, 100);
     });
+    const width = (window.outerWidth) + "px"
+    $('#background-border').css({'width':"calc( "+width+" - 5%)","margin-left":"calc(5% - 1px)"})
+
 
 });
