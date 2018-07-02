@@ -292,4 +292,28 @@ $(document).ready(function() {
          */
         $(".table-container .tabs li").on("click", MIRAI.main.onHandleSetTimelineHeight);
 
+
+
+    var timeout;
+
+    $('.time, .schedule').on("scroll", function callback() {
+        // clear the 'timeout' every 'scroll' event call
+        // to prevent re-assign 'scroll' event to other element
+        // before finished scrolling
+        clearTimeout(timeout);
+
+        // get the used elements
+        var source = $(this),
+            target = $(source.is(".time") ? '.schedule' : '.time');
+
+        // remove the callback from the other 'div' and set the 'scrollTop'
+        target.off("scroll").scrollTop(source.scrollTop());
+
+        // create a new 'timeout' and reassign 'scroll' event
+        // to other 'div' on 100ms after the last event call
+        timeout = setTimeout(function() {
+            target.on("scroll", callback);
+        }, 100);
+    });
+
 });
