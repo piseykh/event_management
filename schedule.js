@@ -132,7 +132,7 @@ if(!MIRAI.main) {MIRAI.main = {};}
             case 65305: return '9';
             default: return String.fromCharCode(number);
         }
-        
+
     }
 
     func.startSortingLocation = function() {
@@ -142,8 +142,8 @@ if(!MIRAI.main) {MIRAI.main = {};}
     }
 
     func.showModal = function() {
-        var name = $(this).attr("data-name"), 
-            time = $(this).attr("data-time"), 
+        var name = $(this).attr("data-name"),
+            time = $(this).attr("data-time"),
             description = $(this).attr("data-description");
         $(".event-modal").css("display", "block");
         $(".cover-layer").css("visibility", "visible");
@@ -173,7 +173,6 @@ if(!MIRAI.main) {MIRAI.main = {};}
         var $selector = $(sel);
         $selector.each(function(index, $sel){
             var $element = $($sel).children(elem);
-            console.log($element.length);
             $element.sort(function(a, b) {
             var an = parseInt(a.getAttribute(arg)),
                 bn = parseInt(b.getAttribute(arg));
@@ -258,7 +257,7 @@ if(!MIRAI.main) {MIRAI.main = {};}
 
 $(document).ready(function() {
     MIRAI.main.fetchEventsData('https://api.eventregist.com/v/2/timetable/get?event_uid=3b75c6deb1a72cf894781a8c5e4f0e64');
-            
+
         /**
          * @description Listen on Close element
          */
@@ -274,8 +273,30 @@ $(document).ready(function() {
         });
 
         /**
-         * @description Handle Automated Height 
+         * @description Handle Automated Height
          */
         $(".table-container .tabs li").on("click", MIRAI.main.onHandleSetTimelineHeight);
 
+
+    // var timeout;
+    // console.log("start");
+    // $('.time, .schedule').scroll( function() {
+    //     console.log("scroll")
+    //     clearTimeout(timeout);
+    //
+    //     var source = $(this),
+    //         target = $(source.is("#time") ? '#schedule' : '#time');
+    //
+    //     target.off("scroll").scrollTop(source.scrollTop());
+    //
+    //     timeout = setTimeout(function() {
+    //         target.on("scroll", callback);
+    //     }, 50);
+    // });
+
+
+    $(".time").scroll(function () {
+        console.log("=======");
+        $(".schedule").scrollTop($(".time").scrollTop());
+    });
 });
