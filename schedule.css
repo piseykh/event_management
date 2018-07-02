@@ -86,11 +86,9 @@
 }
 
  .schedule-wrapper {
-     display: inline-flex;
-     margin: 25px auto;
-     height: calc(100% - 200px);
-     overflow-x: auto;
-     overflow-y: hidden;
+     float: right;
+     width: 95%;
+     overflow-x: scroll;
      cursor: -webkit-grab;
      cursor: grab;
      cursor : -o-grab;
@@ -285,8 +283,10 @@ body.showModal {
     color:white;
 }
 .wrapper-event{
+
    float: right;
     width: 95%;
+
     overflow-x: scroll
 }
 .timeline-element{

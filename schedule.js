@@ -35,12 +35,8 @@ if(!MIRAI.main) {MIRAI.main = {};}
                         endTime = moment(ele.end).format('HH:mm'),
                         startDate = moment(ele.start).format('DD'),
                         endDate = moment(ele.end).format('DD'),
-
-
                         locationName = ele.location,
                         locationCol = $(`li.eventOn${startDate}th .table-flex[data-location="${locationName}"]`);
-
-
                     if(!locationCol.length) {
                         var locationNumbers = locationName.match(regex);
                         var roomNumber;
@@ -57,43 +53,30 @@ if(!MIRAI.main) {MIRAI.main = {};}
                         var charCode = locationNumbers.charCodeAt(0),
                             codeNumber = MIRAI.main.HiraAndKataNumbers(charCode),
                             locationNumbers = codeNumber + locationNumbers.slice(1,locationNumbers.length);
-
-
                         var renderedLocationHTML = func.eventLocationColumnTemplate.format(
                             locationName,
-                            locationNumbers,
-                            roomNumber
                         );
                         renderedLocationHTML = $.parseHTML(renderedLocationHTML);
                         $(`li.eventOn${startDate}th .card-events`).append(renderedLocationHTML);
-
-
-                        // var piseyheader = func.piseyheaderTemplate.format(
-                        //     locationName,
-                        // );
-                        // piseyheader = $.parseHTML(piseyheader);
-                        // $(`li.eventOn${startDate}th .pisey-header`).append(piseyheader);
-
-
 
                         var location_header = func.locationHeaderTemplate.format(
                             locationName,
                         );
                         location_header = $.parseHTML(location_header);
                         $(`li.eventOn${startDate}th .location-headers`).append(location_header);
-
                     }
 
                     var startTimeDec = moment.duration(startTime).asHours();
                     var endTimeDec = moment.duration(endTime).asHours();
-
-
                     var timeUnitPx = 50;
-
                     var margin = (startTimeDec - 7) * timeUnitPx;
                     var height = (endTimeDec - startTimeDec) * timeUnitPx;
 
                     var orderTime = `${String(startTime).replace(':','')}${String(endTime).replace(':','')}`;
+
+
+
+
                     var renderedEventHTML = func.locationEventTemplate.format(
                         ele.name,
                         `${startTime}-${endTime}`,
@@ -104,15 +87,11 @@ if(!MIRAI.main) {MIRAI.main = {};}
                         margin,
                         height
                     );
-
-
                     renderedEventHTML = $.parseHTML(renderedEventHTML);
-                    $(renderedEventHTML).on('click', func.showModal)
+                    $(renderedEventHTML).on('click', func.showModal);
                     $(`li.eventOn${startDate}th .table-flex[data-location="${locationName}"] .location-events`).append(
                         renderedEventHTML
                     );
-
-
                     _.extend(ele, {
                         startTime: startTime,
                         endTime: endTime
@@ -277,7 +256,6 @@ if(!MIRAI.main) {MIRAI.main = {};}
         </div>
     </div>`;
 
-
     func.locationEventTemplate = `
     <div class="col-child eventRecordObject" style="margin-top: {6}px; height: {7}px;"
      data-name="{0}" 
@@ -289,6 +267,7 @@ if(!MIRAI.main) {MIRAI.main = {};}
       <p class="time" data-time="">{1}</p>
        <br/><h4 class="name-event">{0}</h4>
    </div>`
+
 })(jQuery);
 
 $(document).ready(function() {

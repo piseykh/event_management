@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +7,7 @@
     <title>Schedule2</title>
     <link rel="stylesheet" href="schedule.css">
 </head>
-
 <body>
-
     <div class="table-container">
         <ul class="tabs">
             <li class="eventOn15th">
@@ -18,30 +15,19 @@
                 <label for="tab1">September
                     <span>15</span>
                 </label>
-
-
-                <!--<div id="tab-content1" class="tab-content dragscroll">-->
-                    <!--<div class="time timeline" style="width: 200px;background-color: gray;height: 400px;float: left">-->
-                        <!--<div style="height: 75px">Time/Building</div>-->
-
                 <div id="tab-content1" class="tab-content">
                     <div class="time-line">
-                       <div class="time-line-title"><p></p></div>
 
+                       <div class="time-line-title"><p></p></div>
                         <div class="syncscroll time-line-item time" >
 
                         </div>
-
                     </div>
-                    <div class="wrapper-event dragscroll">
+                    <div class="schedule-wrapper dragscroll">
                         <div class="location-headers"></div>
                         <div class="syncscroll card-events schedule"></div>
                     </div>
                 </div>
-
-
-
-
             </li>
             <li class="eventOn16th">
 
@@ -50,7 +36,7 @@
                     <span>16</span>
                 </label>
                 <div id="tab-content2" class="tab-content">
-                    <div style="height: 80%;position: absolute;z-index: 10;width: 100%;display: flex;flex-direction: column">
+                   <!-- <div style="height: 80%;position: absolute;z-index: 10;width: 100%;display: flex;flex-direction: column">
                         <div style="height: 200px;width: 100%; display: flex;flex-direction: row">
                             <div style="width: 200px;border: 1px solid black;height: 200px;"></div>
                             <div style="width: 200px;border: 1px solid black;height: 200px;"></div>
@@ -66,30 +52,26 @@
                             <div style="width: 200px;height: 200px;"></div>
                             <div style="width: 200px;height: 200px;"></div>
                         </div>
-                    </div>
+                    </div>-->
 
                     <div class="time-line">
 
+
                         <div class="time-line-title"><p></p></div>
-                        <div class="syncscroll time-line-item time">
+                        <div class="syncscroll time-line-item time" >
 
                         </div>
-
                     </div>
 
-                    <div class="wrapper-event dragscroll">
+                    <div class="schedule-wrapper dragscroll">
+
                         <div class="location-headers"></div>
 
                         <div  class="syncscroll card-events schedule"></div>
                     </div>
                 </div>
-
             </li>
         </ul>
-
-
-
-
         <div class="cover-layer">
             <<div class="event-modal">
                 <header class="header">
@@ -97,15 +79,12 @@
                         <span class="date"></span>
                         <h3 class="name"></h3>
                     </div>
-
                     <div class="header-bg"></div>
                 </header>
-
                 <div class="body">
                     <div class="info">Description:</div>
                     <div class="body-bg"></div>
                 </div>
-
                 <span class="close">X</span>
             </div>
         </div>
