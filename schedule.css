@@ -311,4 +311,11 @@ p.time{
     color: darkorchid;
 }
 
+.time-line-item.time::-webkit-scrollbar,.schedule-wrapper.dragscroll::-webkit-scrollbar{
+    display: none;
+}
+.time-line-item.time,.schedule-wrapper.dragscroll{
+    -ms-overflow-style: none;
+}
+
 

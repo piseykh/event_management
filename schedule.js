@@ -62,8 +62,12 @@ if(!MIRAI.main) {MIRAI.main = {};}
                         var location_header = func.locationHeaderTemplate.format(
                             locationName,
                         );
+                        var background_border = func.backgroundBorderTemplate.format(
+                            locationName
+                        )
                         location_header = $.parseHTML(location_header);
                         $(`li.eventOn${startDate}th .location-headers`).append(location_header);
+                        $('#background-border').append(background_border)
                     }
 
                     var startTimeDec = moment.duration(startTime).asHours();
@@ -255,6 +259,11 @@ if(!MIRAI.main) {MIRAI.main = {};}
             <p>{0}</p>
         </div>
     </div>`;
+
+    func.backgroundBorderTemplate = `
+    
+        <div style="height: 200px;width: 250px; display: flex;flex-direction: column;border: 1px solid black"></div>`
+
 
     func.locationEventTemplate = `
     <div class="col-child eventRecordObject" style="margin-top: {6}px; height: {7}px;"
