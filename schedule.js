@@ -84,10 +84,14 @@ if(!MIRAI.main) {MIRAI.main = {};}
 
                     }
 
+                    var startTimeDec = moment.duration(startTime).asHours();
+                    var endTimeDec = moment.duration(endTime).asHours();
 
-                    var margin = (parseInt(startTime) - 7) * 200;
-                    var height = (parseInt(endTime) - parseInt(startTime)) * 200;
-                    console.log('start-time: ' + moment.duration())
+
+                    var timeUnitPx = 50;
+
+                    var margin = (startTimeDec - 7) * timeUnitPx;
+                    var height = (endTimeDec - startTimeDec) * timeUnitPx;
 
                     var orderTime = `${String(startTime).replace(':','')}${String(endTime).replace(':','')}`;
                     var renderedEventHTML = func.locationEventTemplate.format(
