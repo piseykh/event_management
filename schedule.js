@@ -343,15 +343,23 @@ $(document).ready(function() {
 
         // remove the callback from the other 'div' and set the 'scrollTop'
         target.off("scroll").scrollTop(source.scrollTop());
-        var border = ".scroll-border"
+        var border = $(".scroll-border")
         // create a new 'timeout' and reassign 'scroll' event
         // to other 'div' on 100ms after the last event call
         timeout = setTimeout(function() {
             target.on("scroll", callback);
-            $('.scroll-border').on("scroll", callback);
-
         }, 100);
     });
+    $('.time, .schedule').on("scroll", function() {
+        var scrollT = $(this).scrollTop();
+
+        $('.scroll-border').scrollTop( scrollT );
+
+    })
+    $('.horizontal_scroll_border').on("scroll", function() {
+        var scrollL = $(this).scrollLeft()
+        $('.scroll-border').scrollLeft( scrollL );
+    })
     const width = (window.outerWidth) + "px"
     $('#background-border').css({'width':"calc( "+width+" - 5%)","margin-left":"calc(5% - 1px)"})
 
