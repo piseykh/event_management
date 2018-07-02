@@ -27,7 +27,9 @@ if(!MIRAI.main) {MIRAI.main = {};}
                         eventOn15th: [],
                         eventOn16th: []
                     };
-                var regex = unicode_hack(/\p{N}/g);
+                var regex = unicode_hack(/\p{N}/g),
+                timeline = new Set();
+
                 timetables.map(function(ele, index){
                     var startTime = moment(ele.start).format('HH:mm'),
                         endTime = moment(ele.end).format('HH:mm'),
@@ -56,6 +58,7 @@ if(!MIRAI.main) {MIRAI.main = {};}
                             codeNumber = MIRAI.main.HiraAndKataNumbers(charCode),
                             locationNumbers = codeNumber + locationNumbers.slice(1,locationNumbers.length);
 
+
                         var renderedLocationHTML = func.eventLocationColumnTemplate.format(
                             locationName,
                             locationNumbers,
@@ -65,15 +68,26 @@ if(!MIRAI.main) {MIRAI.main = {};}
                         $(`li.eventOn${startDate}th .card-events`).append(renderedLocationHTML);
 
 
+                        // var piseyheader = func.piseyheaderTemplate.format(
+                        //     locationName,
+                        // );
+                        // piseyheader = $.parseHTML(piseyheader);
+                        // $(`li.eventOn${startDate}th .pisey-header`).append(piseyheader);
+
+
 
                         var location_header = func.locationHeaderTemplate.format(
                             locationName,
                         );
                         location_header = $.parseHTML(location_header);
                         $(`li.eventOn${startDate}th .location-headers`).append(location_header);
+
                     }
 
 
+                    var margin = (parseInt(startTime) - 7) * 50;
+                    var height = (parseInt(endTime) - parseInt(startTime)) * 50;
+                    console.log('start-time: ' + moment.duration())
 
                     var orderTime = `${String(startTime).replace(':','')}${String(endTime).replace(':','')}`;
                     var renderedEventHTML = func.locationEventTemplate.format(
@@ -82,7 +96,9 @@ if(!MIRAI.main) {MIRAI.main = {};}
                         startTime,
                         endTime,
                         String(ele.description).replace(/"/g, "&quot;"),
-                        orderTime
+                        orderTime,
+                        margin,
+                        height
                     );
 
 
@@ -93,13 +109,23 @@ if(!MIRAI.main) {MIRAI.main = {};}
                     );
 
 
-
                     _.extend(ele, {
                         startTime: startTime,
                         endTime: endTime
                     });
                     events[`eventOn${startDate}th`].push(ele);
                 });
+
+                for (var i = 15; i <= 16; i++) {
+                    for (var j = 7; j <= 18; j++) {
+                        var timelineElement = func.timelineElementTemplate.format(
+                            j,
+                        );
+                        timelineElement = $.parseHTML(timelineElement);
+                        $(`li.eventOn${i}th .time-line-item`).append(timelineElement);
+                    }
+                }
+
                 MIRAI.main.sortBy('data-building-number', '.schedule-wrapper', '.table-flex', 'asc', 'data-room-number');
                 MIRAI.main.sortBy('data-time-order', '.location-events', '.eventRecordObject', 'asc');
                 MIRAI.main.setTimelineParentHeight();
@@ -228,8 +254,14 @@ if(!MIRAI.main) {MIRAI.main = {};}
         }
     }
 
+    func.timelineElementTemplate = `
+    <div class="timeline-element" data-time="{0}">
+        <p>{0}</p>
+    </div>
+    `;
+
     func.eventLocationColumnTemplate = `
-    <div class="table-flex" data-location="{0}" data-building-number="{1}" data-room-number={2}>
+    <div class="table-flex event-card" data-location="{0}" data-building-number="{1}" data-room-number={2}>
         <div class="location-events">  
         </div>
     </div>`;
@@ -243,7 +275,7 @@ if(!MIRAI.main) {MIRAI.main = {};}
 
 
     func.locationEventTemplate = `
-    <div class="col-child eventRecordObject"
+    <div class="col-child eventRecordObject" style="margin-top: {6}px; height: {7}px;"
      data-name="{0}" 
      data-time="{1}" 
      data-startTime="{2}" 
