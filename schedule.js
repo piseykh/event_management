@@ -85,8 +85,8 @@ if(!MIRAI.main) {MIRAI.main = {};}
                     }
 
 
-                    var margin = (parseInt(startTime) - 7) * 50;
-                    var height = (parseInt(endTime) - parseInt(startTime)) * 50;
+                    var margin = (parseInt(startTime) - 7) * 200;
+                    var height = (parseInt(endTime) - parseInt(startTime)) * 200;
                     console.log('start-time: ' + moment.duration())
 
                     var orderTime = `${String(startTime).replace(':','')}${String(endTime).replace(':','')}`;
@@ -117,7 +117,7 @@ if(!MIRAI.main) {MIRAI.main = {};}
                 });
 
                 for (var i = 15; i <= 16; i++) {
-                    for (var j = 7; j <= 18; j++) {
+                    for (var j = 7; j <= 17; j++) {
                         var timelineElement = func.timelineElementTemplate.format(
                             j,
                         );
@@ -282,8 +282,8 @@ if(!MIRAI.main) {MIRAI.main = {};}
      data-endTime="{3}" 
      data-description="{4}"
      data-time-order="{5}">
-       <p class="time" data-time="">{1}</p>
-       <h4>{0}</h4>
+      <p class="time" data-time="">{1}</p>
+       <br/><h4 class="name-event">{0}</h4>
    </div>`
 })(jQuery);
 
