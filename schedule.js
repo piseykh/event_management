@@ -62,15 +62,15 @@ if(!MIRAI.main) {MIRAI.main = {};}
                             roomNumber
                         );
                         renderedLocationHTML = $.parseHTML(renderedLocationHTML);
-                        $(`li.eventOn${startDate}th .pisey-event`).append(renderedLocationHTML);
+                        $(`li.eventOn${startDate}th .card-events`).append(renderedLocationHTML);
 
 
 
-                        var piseyheader = func.piseyheaderTemplate.format(
+                        var location_header = func.locationHeaderTemplate.format(
                             locationName,
                         );
-                        piseyheader = $.parseHTML(piseyheader);
-                        $(`li.eventOn${startDate}th .pisey-header`).append(piseyheader);
+                        location_header = $.parseHTML(location_header);
+                        $(`li.eventOn${startDate}th .location-headers`).append(location_header);
                     }
 
 
@@ -234,7 +234,7 @@ if(!MIRAI.main) {MIRAI.main = {};}
         </div>
     </div>`;
 
-    func.piseyheaderTemplate = `
+    func.locationHeaderTemplate = `
     <div class="table-flex" data-location="{0}" data-building-number="{1}" data-room-number={2}>
         <div class="col-header">
             <p>{0}</p>
@@ -277,6 +277,7 @@ $(document).ready(function() {
          */
         $(".table-container .tabs li").on("click", MIRAI.main.onHandleSetTimelineHeight);
 
+<<<<<<< HEAD
 
     // var timeout;
     // console.log("start");
@@ -299,4 +300,6 @@ $(document).ready(function() {
         console.log("=======");
         $(".schedule").scrollTop($(".time").scrollTop());
     });
+=======
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
 });
