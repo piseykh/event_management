@@ -66,16 +66,6 @@ if(!MIRAI.main) {MIRAI.main = {};}
                         );
                         renderedLocationHTML = $.parseHTML(renderedLocationHTML);
                         $(`li.eventOn${startDate}th .card-events`).append(renderedLocationHTML);
-
-
-                        // var piseyheader = func.piseyheaderTemplate.format(
-                        //     locationName,
-                        // );
-                        // piseyheader = $.parseHTML(piseyheader);
-                        // $(`li.eventOn${startDate}th .pisey-header`).append(piseyheader);
-
-
-
                         var location_header = func.locationHeaderTemplate.format(
                             locationName,
                         );
@@ -309,29 +299,4 @@ $(document).ready(function() {
          */
         $(".table-container .tabs li").on("click", MIRAI.main.onHandleSetTimelineHeight);
 
-<<<<<<< HEAD
-
-    // var timeout;
-    // console.log("start");
-    // $('.time, .schedule').scroll( function() {
-    //     console.log("scroll")
-    //     clearTimeout(timeout);
-    //
-    //     var source = $(this),
-    //         target = $(source.is("#time") ? '#schedule' : '#time');
-    //
-    //     target.off("scroll").scrollTop(source.scrollTop());
-    //
-    //     timeout = setTimeout(function() {
-    //         target.on("scroll", callback);
-    //     }, 50);
-    // });
-
-
-    $(".time").scroll(function () {
-        console.log("=======");
-        $(".schedule").scrollTop($(".time").scrollTop());
-    });
-=======
->>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
 });
