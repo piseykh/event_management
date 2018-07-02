@@ -65,14 +65,22 @@ if(!MIRAI.main) {MIRAI.main = {};}
                             roomNumber
                         );
                         renderedLocationHTML = $.parseHTML(renderedLocationHTML);
-                        $(`li.eventOn${startDate}th .pisey-event`).append(renderedLocationHTML);
+                        $(`li.eventOn${startDate}th .card-events`).append(renderedLocationHTML);
 
 
-                        var piseyheader = func.piseyheaderTemplate.format(
+                        // var piseyheader = func.piseyheaderTemplate.format(
+                        //     locationName,
+                        // );
+                        // piseyheader = $.parseHTML(piseyheader);
+                        // $(`li.eventOn${startDate}th .pisey-header`).append(piseyheader);
+
+
+
+                        var location_header = func.locationHeaderTemplate.format(
                             locationName,
                         );
-                        piseyheader = $.parseHTML(piseyheader);
-                        $(`li.eventOn${startDate}th .pisey-header`).append(piseyheader);
+                        location_header = $.parseHTML(location_header);
+                        $(`li.eventOn${startDate}th .location-headers`).append(location_header);
 
                     }
 
@@ -114,7 +122,7 @@ if(!MIRAI.main) {MIRAI.main = {};}
                             j,
                         );
                         timelineElement = $.parseHTML(timelineElement);
-                        $(`li.eventOn${i}th .timeline`).append(timelineElement);
+                        $(`li.eventOn${i}th .time-line-item`).append(timelineElement);
                     }
                 }
 
@@ -150,7 +158,7 @@ if(!MIRAI.main) {MIRAI.main = {};}
             case 65305: return '9';
             default: return String.fromCharCode(number);
         }
-        
+
     }
 
     func.startSortingLocation = function() {
@@ -160,8 +168,8 @@ if(!MIRAI.main) {MIRAI.main = {};}
     }
 
     func.showModal = function() {
-        var name = $(this).attr("data-name"), 
-            time = $(this).attr("data-time"), 
+        var name = $(this).attr("data-name"),
+            time = $(this).attr("data-time"),
             description = $(this).attr("data-description");
         $(".event-modal").css("display", "block");
         $(".cover-layer").css("visibility", "visible");
@@ -191,7 +199,6 @@ if(!MIRAI.main) {MIRAI.main = {};}
         var $selector = $(sel);
         $selector.each(function(index, $sel){
             var $element = $($sel).children(elem);
-            console.log($element.length);
             $element.sort(function(a, b) {
             var an = parseInt(a.getAttribute(arg)),
                 bn = parseInt(b.getAttribute(arg));
@@ -259,7 +266,7 @@ if(!MIRAI.main) {MIRAI.main = {};}
         </div>
     </div>`;
 
-    func.piseyheaderTemplate = `
+    func.locationHeaderTemplate = `
     <div class="table-flex" data-location="{0}" data-building-number="{1}" data-room-number={2}>
         <div class="col-header">
             <p>{0}</p>
@@ -282,7 +289,7 @@ if(!MIRAI.main) {MIRAI.main = {};}
 
 $(document).ready(function() {
     MIRAI.main.fetchEventsData('https://api.eventregist.com/v/2/timetable/get?event_uid=3b75c6deb1a72cf894781a8c5e4f0e64');
-            
+
         /**
          * @description Listen on Close element
          */
@@ -298,7 +305,7 @@ $(document).ready(function() {
         });
 
         /**
-         * @description Handle Automated Height 
+         * @description Handle Automated Height
          */
         $(".table-container .tabs li").on("click", MIRAI.main.onHandleSetTimelineHeight);
 

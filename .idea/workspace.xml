@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3f32c6f4-96e4-454b-b7b6-7ce5a965c90b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/schedule.css" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.css" afterDir="false" />
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
       <change beforePath="$PROJECT_DIR$/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.js" afterDir="false" />
     </list>
@@ -21,8 +25,13 @@
       <file leaf-file-name="schedule.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/schedule.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="35">
               <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+=======
+            <state relative-caret-position="-67">
+              <caret line="242" lean-forward="true" selection-start-line="242" selection-end-line="242" selection-end-column="12" />
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
             </state>
           </provider>
         </entry>
@@ -30,6 +39,7 @@
       <file leaf-file-name="schedule.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/schedule.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="237">
               <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
               <folding>
@@ -41,6 +51,12 @@
                 <element signature="e#6262#6418#0" />
                 <element signature="e#6512#7870#0" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+=======
+            <state relative-caret-position="210">
+              <caret line="85" column="22" lean-forward="true" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+              <folding>
+                <element signature="e#72#278#0" />
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
               </folding>
             </state>
           </provider>
@@ -49,13 +65,30 @@
       <file leaf-file-name="schedule.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/schedule.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="148">
               <caret line="22" column="45" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+            <state relative-caret-position="306">
+              <caret line="109" column="76" selection-start-line="109" selection-start-column="76" selection-end-line="109" selection-end-column="76" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="syncscroll.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/syncscroll.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="36" selection-end-column="946" />
             </state>
           </provider>
         </entry>
@@ -76,7 +109,11 @@
       <find>pisey-event</find>
       <find>tab-content</find>
       <find>table-flex</find>
+<<<<<<< HEAD
       <find>console.log</find>
+=======
+      <find>console</find>
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,7 +122,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/syncscroll.js" />
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
         <option value="$PROJECT_DIR$/schedule.css" />
+        <option value="$PROJECT_DIR$/schedule.js" />
         <option value="$PROJECT_DIR$/schedule.html" />
         <option value="$PROJECT_DIR$/schedule.js" />
       </list>
@@ -101,8 +143,13 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="186" />
     <option name="y" value="33" />
+=======
+    <option name="x" value="125" />
+    <option name="y" value="67" />
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
     <option name="width" value="1241" />
     <option name="height" value="685" />
   </component>
@@ -114,7 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,6 +172,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,17 +213,25 @@
       <workItem from="1530456806778" duration="329000" />
       <workItem from="1530457168860" duration="1041000" />
       <workItem from="1530467597812" duration="8415000" />
+      <workItem from="1530484576765" duration="1474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="19120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="186" y="33" width="1241" height="685" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="14906000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="125" y="67" width="1241" height="626" extended-state="0" />
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14423852" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14344262" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -191,6 +246,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+<<<<<<< HEAD
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -203,6 +259,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
+=======
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +280,72 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/schedule.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+=======
+        <state relative-caret-position="4110">
+          <caret line="274" column="30" lean-forward="true" selection-start-line="274" selection-start-column="30" selection-end-line="274" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4170">
+          <caret line="278" selection-start-line="278" selection-end-line="278" />
+          <folding>
+            <element signature="e#72#278#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syncscroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-end-column="946" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="43" lean-forward="true" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3480">
+          <caret line="232" column="26" selection-start-line="232" selection-start-column="16" selection-end-line="232" selection-end-column="26" />
+          <folding>
+            <element signature="e#72#278#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.css">
+      <provider selected="true" editor-type-id="text-editor">
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
         <state relative-caret-position="915">
           <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
         </state>
@@ -230,6 +357,7 @@
           <caret line="232" column="26" selection-start-line="232" selection-start-column="16" selection-end-line="232" selection-end-column="26" />
           <folding>
             <element signature="e#72#278#0" />
+<<<<<<< HEAD
             <element signature="e#4568#4794#0" />
             <element signature="e#4842#5329#0" />
             <element signature="e#5374#5565#0" />
@@ -237,6 +365,8 @@
             <element signature="e#6262#6418#0" />
             <element signature="e#6512#7870#0" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+=======
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
           </folding>
         </state>
       </provider>
@@ -246,9 +376,14 @@
         <state relative-caret-position="360">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
+<<<<<<< HEAD
             <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
           </folding>
         </state>
       </provider>
@@ -259,6 +394,7 @@
           <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
           <folding>
             <element signature="e#72#278#0" />
+<<<<<<< HEAD
             <element signature="e#4568#4794#0" />
             <element signature="e#4842#5329#0" />
             <element signature="e#5374#5565#0" />
@@ -266,6 +402,8 @@
             <element signature="e#6262#6418#0" />
             <element signature="e#6512#7870#0" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+=======
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
           </folding>
         </state>
       </provider>
@@ -275,9 +413,14 @@
         <state relative-caret-position="276">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
+<<<<<<< HEAD
             <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
           </folding>
         </state>
       </provider>
@@ -391,17 +534,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/schedule.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="263">
+=======
+        <state relative-caret-position="915">
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
           <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/schedule.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
+        <state relative-caret-position="3390">
           <caret line="232" column="26" selection-start-line="232" selection-start-column="16" selection-end-line="232" selection-end-column="26" />
           <folding>
             <element signature="e#72#278#0" />
+<<<<<<< HEAD
             <element signature="e#4568#4794#0" />
             <element signature="e#4842#5329#0" />
             <element signature="e#5374#5565#0" />
@@ -409,12 +557,15 @@
             <element signature="e#6262#6418#0" />
             <element signature="e#6512#7870#0" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+=======
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/schedule.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="284">
           <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
@@ -507,6 +658,96 @@
             <element signature="e#6262#6418#0" />
             <element signature="e#6512#7870#0" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+=======
+        <state relative-caret-position="81">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+          <folding>
+            <element signature="e#72#278#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unicode-hack.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unicode-hack.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syncscroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-end-column="946" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="85" column="22" lean-forward="true" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+          <folding>
+            <element signature="e#72#278#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="242" lean-forward="true" selection-start-line="242" selection-end-line="242" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="109" column="76" selection-start-line="109" selection-start-column="76" selection-end-line="109" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> 1a6600d480627e8eca10075ac211a69ec18ddefe
           </folding>
         </state>
       </provider>
