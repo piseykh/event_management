@@ -27,6 +27,7 @@ if(!MIRAI.main) {MIRAI.main = {};}
                         eventOn15th: [],
                         eventOn16th: []
                     };
+                console.log(timetables)
                 var regex = unicode_hack(/\p{N}/g),
                 timeline = new Set();
                 let html_border =""
@@ -38,8 +39,12 @@ if(!MIRAI.main) {MIRAI.main = {};}
                         endDate = moment(ele.end).format('DD'),
                         locationName = ele.location,
                         locationCol = $(`li.eventOn${startDate}th .table-flex[data-location="${locationName}"]`);
+
+
                     if(!locationCol.length) {
+
                         var locationNumbers = locationName.match(regex);
+
                         var roomNumber;
                         if(locationNumbers && locationNumbers.length) {
                             roomNumber = locationNumbers.join('').slice(1,locationNumbers.length);
@@ -60,10 +65,12 @@ if(!MIRAI.main) {MIRAI.main = {};}
                         renderedLocationHTML = $.parseHTML(renderedLocationHTML);
                         $(`li.eventOn${startDate}th .card-events`).append(renderedLocationHTML);
 
+                        if(locationName.hasOwnProperty()){
+                            console.log(count++)
+                        }
                         var location_header = func.locationHeaderTemplate.format(
                             locationName,
                         );
-                        count++;
 
                         location_header = $.parseHTML(location_header);
                         $(`li.eventOn${startDate}th .location-headers`).append(location_header);
@@ -101,14 +108,10 @@ if(!MIRAI.main) {MIRAI.main = {};}
                         endTime: endTime
                     });
                     events[`eventOn${startDate}th`].push(ele);
-                    var background_border = func.backgroundBorderTemplate.format(
-                        locationName
-                    )
-                    html_border = html_border +background_border;
+
 
 
                 });
-                console.log(count)
 
                 for (var i = 15; i <= 16; i++) {
                     for (var j = 7; j <= 17; j++) {
@@ -120,21 +123,16 @@ if(!MIRAI.main) {MIRAI.main = {};}
                     }
                 }
                 let full_background =""
-                if(html_border){
-                    for(var i=0;i<12;i++){
-                        var background_border = func.backgroundBorderTemplate.format(
-                        )
-                        html_border = html_border + background_border;
-                    }
-                    for(var k = 0 ;k <=16;k++){
-                        $('.background-border').append("<div>"+html_border+"</div>")
 
-                    }
-
+                for(var i=0;i<11;i++){
+                    var background_border = func.backgroundBorderTemplate.format(
+                    )
+                    html_border = html_border + background_border;
+                }
+                for(var k = 0 ;k <=14;k++){
+                    $('.background-border').append("<div style='width: 250px'>"+html_border+"</div>")
 
                 }
-
-
                 MIRAI.main.sortBy('data-building-number', '.schedule-wrapper', '.table-flex', 'asc', 'data-room-number');
                 MIRAI.main.sortBy('data-time-order', '.location-events', '.eventRecordObject', 'asc');
                 MIRAI.main.setTimelineParentHeight();
@@ -353,22 +351,19 @@ $(document).ready(function() {
     $('.scroll_time, .schedule').on("scroll", function() {
         var scrollT = $(this).scrollTop();
         let top = document.querySelector('.scroll_time').scrollHeight
-        let max = document.querySelector('.scroll-border').scrollHeight
-        console.log(max)
-        console.log("st"+scrollT)
-        console.log("dd"+top)
-        console.log(scrollT > top)
+
+            $('.scroll-border').scrollTop( scrollT );
 
 
-        $('.scroll-border').scrollTop( scrollT );
+
 
     })
     $('.horizontal_scroll_border').on("scroll", function() {
         var scrollL = $(this).scrollLeft()
         $('.scroll-border').scrollLeft( scrollL );
     })
-    const width = (window.outerWidth) + "px"
-    $('.background-border').css({'width':"calc( "+width+" - 5%)","margin-left":"calc(5% - 1px)"})
+    const width = (window.outerWidth-16) + "px"
+    $('.background-border').css({'width':"calc( "+width+" - 5%)","margin-left":"calc(5%)"})
 
 
 });

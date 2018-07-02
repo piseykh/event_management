@@ -311,11 +311,24 @@ p.time{
     color: darkorchid;
 }
 
-.time-line-item.time::-webkit-scrollbar,.schedule-wrapper.dragscroll::-webkit-scrollbar{
+.time-line-item.time::-webkit-scrollbar,
+.schedule-wrapper.dragscroll::-webkit-scrollbar,
+.scroll-border::-webkit-scrollbar
+{
     display: none;
 }
 .time-line-item.time,.schedule-wrapper.dragscroll{
     -ms-overflow-style: none;
 }
+
+.scroll-border{
+    -ms-overflow-style: none;
+  position: absolute;z-index: -1;
+    height: 324.5px;
+    margin-top: 75.5px;
+    display:-webkit-inline-box;
+    flex-direction: row;overflow-y: scroll
+}
+
 
 
