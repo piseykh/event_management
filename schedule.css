@@ -86,11 +86,9 @@
 }
 
  .schedule-wrapper {
-     display: inline-flex;
-     margin: 25px auto;
-     height: calc(100% - 200px);
-     overflow-x: auto;
-     overflow-y: hidden;
+     float: right;
+     width: 90%;
+     overflow-x: scroll;
      cursor: -webkit-grab;
      cursor: grab;
      cursor : -o-grab;
@@ -118,6 +116,7 @@ body.showModal {
 
  .table-flex .col-child {
      margin-bottom: 15px;
+     text-align: center;
  }
 
  .table-flex > .col-child > p {
@@ -130,7 +129,9 @@ body.showModal {
      margin: 0px 0px;
      height: 75px;
      font-size: 15px;
-     background-color: lightgray;
+     background-color: #bfbff2;
+     color:white;
+     #background-color: lightgray;
      border-bottom: 0.5px solid #ebebeb;
      border-right: 0.5px solid #ebebeb;
  }
@@ -260,8 +261,8 @@ body.showModal {
     flex-direction: row;
 }
 .time-line{
-    width: calc(20% - 1px);
-    background-color: gray;
+    width: calc(10% - 1px);
+    background-color: #bfbff2;
     height:400px;
     border-right: 0.5px solid #ebebeb;
     float: left;
@@ -278,12 +279,34 @@ body.showModal {
     align-items: center;
 }
 .time-line-title p{
-    font-size: 20px;
+    font-size: 16px;
     color:white;
 }
 .wrapper-event{
-   float: right;
-    width: 80%;
+    float: right;
+    width: 90%;
     overflow-x: scroll
 }
+.timeline-element{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+.timeline-element p{
+    display: inline;
+    font-size: 18px;
+    color: white;
+}
+h4.name-event{
+    margin-top: 0.38rem;
+    color: #fff;
+}
+p.time{
+    display: inline;
+    font-size: 18px;
+    color: darkorchid;
+}
+
 
